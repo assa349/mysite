@@ -9,3 +9,17 @@
 
 	python manage.py runserver
 	python manage.py startapp polls
+
+
+[git]
+	git init
+	git add .
+	git config --global user.email "itdo@daum.net"
+	git commit
+	git branch -M main
+	git remote add origin https://github.com/assa349/mysite.git
+	git push -u origin main
+
+
+
+

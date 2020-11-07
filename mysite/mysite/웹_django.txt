@@ -12,6 +12,8 @@
 
 
 [git]
+	# Git bash
+	# /D/Python/Work/www
 	git init
 	git add .
 	git config --global user.email "itdo@daum.net"

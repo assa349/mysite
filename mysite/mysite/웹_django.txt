@@ -1,0 +1,11 @@
+[www]
+	conda create -n www
+	conda info --envs
+	conda remove --name www --all
+    
+
+    activate www   
+    django-admin startproject mysite
+
+	python manage.py runserver
+	python manage.py startapp polls
